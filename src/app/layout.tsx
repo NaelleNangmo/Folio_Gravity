@@ -47,7 +47,9 @@ export const metadata: Metadata = {
     description: "I build systems. I connect worlds.",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
   },
 };
 

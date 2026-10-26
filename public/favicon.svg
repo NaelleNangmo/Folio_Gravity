@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070912"/>
+      <stop offset="100%" stop-color="#10172A"/>
+    </linearGradient>
+    <linearGradient id="cyanViolet" x1="14" y1="14" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#72E6FF"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Cosmic base -->
+  <rect width="64" height="64" rx="14" fill="url(#bgGrad)"/>
+  <rect width="62" height="62" x="1" y="1" rx="13" stroke="#72E6FF" stroke-opacity="0.25" stroke-width="1"/>
+
+  <!-- Orbital ring -->
+  <ellipse cx="32" cy="32" rx="22" ry="9" stroke="url(#cyanViolet)" stroke-width="1.5" stroke-dasharray="3 2" transform="rotate(-25 32 32)" opacity="0.6"/>
+
+  <!-- Geometric N monogram -->
+  <path d="M 21 44 L 21 20 L 26 20 L 38 38 L 38 20 L 43 20 L 43 44 L 38 44 L 26 26 L 26 44 Z" fill="url(#cyanViolet)" filter="url(#glow)"/>
+  <path d="M 21 44 L 21 20 L 26 20 L 38 38 L 38 20 L 43 20 L 43 44 L 38 44 L 26 26 L 26 44 Z" fill="#F3F5FF"/>
+
+  <!-- Orbital satellite particle -->
+  <circle cx="49" cy="24" r="2.5" fill="#72E6FF"/>
+</svg>
