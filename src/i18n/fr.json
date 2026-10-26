@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "about": "À propos",
+    "projects": "Projets",
+    "datalab": "Data Lab",
+    "journey": "Parcours",
+    "skills": "Compétences",
+    "contact": "Contact",
+    "role": "Full Stack & Data Engineering"
+  },
+  "hero": {
+    "status": "Disponible pour opportunités · Full Stack & Data",
+    "greeting": "Bonjour, je suis",
+    "name": "Naelle Noutong Nangmo",
+    "tagline": "I build systems. I connect worlds.",
+    "roleTitle": "Développeuse Full Stack spécialisée en NestJS, Angular, TypeScript et C#",
+    "positioning": "Full Stack Development · Data Engineering · Cloud & DevOps",
+    "description": "Je conçois des architectures backend résilientes, des interfaces web haute performance et des pipelines de données structurés. Actuellement en Master 1 Ingénierie des Données.",
+    "ctaProjects": "Explorer les projets",
+    "ctaContact": "Me contacter",
+    "ctaResume": "Consulter mon CV",
+    "downloadResume": "Télécharger CV",
+    "scrollDown": "Défiler pour explorer"
+  },
+  "about": {
+    "badge": "Profil & Vision",
+    "title": "Au-delà de l'interface",
+    "subtitle": "Concevoir des architectures logicielles pérennes et dompter les flux de données",
+    "bioParagraph1": "Développeuse Full Stack passionnée par la robustesse des systèmes et l'ingénierie logicielle. Mon socle technique s'est forgé à travers la conception d'APIs REST modulaires, l'optimisation de schémas de bases de données relationnelles et la création d'interfaces réactives.",
+    "bioParagraph2": "Actuellement en Master 1 Ingénierie des Données au Groupe 3iL, j'élargis continuellement mon champ d'action vers les pipelines de données massives (ETL/ELT), le stockage hybride (SQL/NoSQL) et les infrastructures conteneurisées.",
+    "domainsTitle": "Piliers d'expertise & axes de recherche",
+    "domain1Title": "Full Stack Development",
+    "domain1Desc": "Architecture MVC/modulaire, APIs REST sécurisées, typage strict avec TypeScript, NestJS, Angular, React et Laravel.",
+    "domain2Title": "Data Engineering (En cours)",
+    "domain2Desc": "Apprentissage des pipelines de traitement (ETL/ELT), modélisation relationnelle & NoSQL, requêtes analytiques avec Python et SQL.",
+    "domain3Title": "Cloud & DevOps",
+    "domain3Desc": "Conteneurisation Docker, stratégies de cache multi-niveaux (Redis, base de données), intégration continue et intégrité des déploiements.",
+    "stats": {
+      "stat1Value": "35+",
+      "stat1Label": "Tests automatisés sur API académique",
+      "stat2Value": "61",
+      "stat2Label": "Tests automatisés sur CamwaterApp",
+      "stat3Value": "15+",
+      "stat3Label": "Endpoints REST déployés en entreprise",
+      "stat4Value": "4",
+      "stat4Label": "Langues parlées & pratiquées"
+    }
+  },
+  "projects": {
+    "badge": "Réalisations Techniques",
+    "title": "Projets & Architectures",
+    "subtitle": "Systèmes backend éprouvés par les tests, APIs sécurisées et modélisation de données",
+    "filterAll": "Tous les projets",
+    "filterFullstack": "Full Stack",
+    "filterData": "Data & Stockage",
+    "filterDevops": "DevOps & API",
+    "viewDetails": "Explorer l'architecture",
+    "sourceCode": "Code GitHub",
+    "verifiedBadge": "Dépôt Vérifié",
+    "cautiousBadge": "Parcours / Documentation",
+    "closeModal": "Fermer",
+    "modalFeaturesTitle": "Fonctionnalités clés implémentées",
+    "modalHighlightsTitle": "Architecture & Bonnes pratiques",
+    "modalVerificationTitle": "Statut de vérification des sources"
+  },
+  "datalab": {
+    "badge": "Laboratoire Conceptuel 3D",
+    "title": "Data Pipeline Architecture",
+    "subtitle": "Visualisation interactive du cycle de vie des données modélisé dans le cadre du Master 1 Ingénierie des Données (Groupe 3iL)",
+    "learningNote": "Laboratoire conceptuel illustrant les flux de données étudiés dans le cadre du Master 1 Ingénierie des Données (3iL). Les architectures présentées représentent les standards industriels en cours d'assimilation.",
+    "stages": {
+      "collect": {
+        "name": "1. Collecte",
+        "tag": "Ingestion",
+        "desc": "Capture de flux de données hétérogènes depuis des APIs REST, des systèmes de facturation et des logs applicatifs."
+      },
+      "transform": {
+        "name": "2. Transformation",
+        "tag": "ETL / ELT",
+        "desc": "Nettoyage, normalisation, validation de schéma et enrichissement via scripts Python et flux d'ingestion."
+      },
+      "storage": {
+        "name": "3. Stockage Hybride",
+        "tag": "Persistance",
+        "desc": "Stockage relationnel transactionnel (MySQL / PostgreSQL) couplé à une journalisation NoSQL (MongoDB) et cache Redis."
+      },
+      "analysis": {
+        "name": "4. Analyse",
+        "tag": "Requêtes & KPI",
+        "desc": "Requêtes analytiques avancées en SQL, agrégations statistiques et calcul des métriques de performance."
+      },
+      "visualize": {
+        "name": "5. Restitution",
+        "tag": "Power BI & APIs",
+        "desc": "Restitution décisionnelle via tableaux de bord Power BI et exposition d'endpoints de consommation pour applications web."
+      }
+    },
+    "instruction": "Survolez ou cliquez sur les nœuds 3D pour inspecter chaque étape du pipeline"
+  },
+  "journey": {
+    "badge": "Évolution & Expériences",
+    "title": "Parcours Académique & Professionnel",
+    "subtitle": "Une progression constante de l'algorithmique fondamentale aux systèmes de données complexes",
+    "filterAll": "Tout",
+    "filterEducation": "Formation",
+    "filterExperience": "Expérience",
+    "certificationsTitle": "Certifications & Spécialisations",
+    "certificationsSubtitle": "Validation continue des compétences techniques et certifications académiques"
+  },
+  "skills": {
+    "badge": "Stack Technique",
+    "title": "Compétences & Technologies",
+    "subtitle": "Un équilibre maîtrisé entre technologies acquises en production et apprentissages avancés",
+    "acquired": "Acquis & Pratiqué",
+    "inProgress": "En cours d'apprentissage",
+    "languagesTitle": "Langues parlées & communication",
+    "languagesSubtitle": "Capacité à collaborer dans des environnements internationaux multiculturels"
+  },
+  "contact": {
+    "badge": "Connexion & Échanges",
+    "title": "Bâtissons ensemble",
+    "subtitle": "Ouverte aux opportunités en développement Full Stack, architectures backend et ingénierie des données",
+    "emailLabel": "Email direct",
+    "copyEmail": "Copier l'email",
+    "copied": "Copié dans le presse-papier !",
+    "githubLabel": "Profil GitHub",
+    "linkedinLabel": "Profil LinkedIn",
+    "locationLabel": "Localisation & Mobilité",
+    "locationValue": "Disponible pour opportunités (hybride / présentiel / remote)",
+    "sendEmailCta": "Envoyer un email",
+    "composedMessageTitle": "Démarrer une conversation",
+    "composedMessageDesc": "Cliquez pour ouvrir votre client mail pré-rempli ou copiez l'adresse directement."
+  },
+  "footer": {
+    "tagline": "Naelle Noutong Nangmo · Bâtir des systèmes. Relier les mondes.",
+    "rights": "Tous droits réservés. Portfolio conçu avec Next.js, Three.js, React Three Fiber & Tailwind CSS."
+  }
+}
